@@ -11,7 +11,7 @@ html {
 }
 
 /* Encabezado azul fijo */
-header {
+.login-header {
   background-color: #2d7df6;
   height: 50px;
   width: 100%;
@@ -111,7 +111,7 @@ header {
 }
 
 .forgot-password a {
-  color: #052c66;
+  color: #2770df;
   text-decoration: none;
 }
 

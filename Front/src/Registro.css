@@ -14,7 +14,7 @@
 }
 
 /* Header */
-header {
+.registro-header {
   background-color: #2d7df6;
   height: 40px;
   width: 100%;
@@ -83,6 +83,13 @@ header {
   margin-bottom: 10px;
 }
 
+
+.return-login {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
 .user-type {
   display: flex;
   justify-content: space-around;
@@ -127,10 +134,10 @@ header {
 
 /* Imagen */
 .Registro-image {
-  flex: 0.8;
+  flex: 1;
   background: url('../public/imagenes/FotoRegistro.jpg') no-repeat center center;
   background-size: cover;
-  margin-top: -52px;
+  margin-top: -57px;
 }
 
 /* Responsive */

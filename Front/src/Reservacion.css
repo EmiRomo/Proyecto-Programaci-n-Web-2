@@ -1,0 +1,323 @@
+.reservacion-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* HEADER SUPERIOR */
+.reservacion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 55px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-logo img {
+  max-width: 320px;
+  height: 53px;
+}
+
+.header-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header-search input {
+  border: none;
+  padding: 10px 40px;
+  outline: none;
+}
+
+.search-btn {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #ff6600;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #2d7df6;
+}
+
+/* SUBHEADER */
+.reservacion-subheader {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #afafaf
+}
+
+.subheader-image {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover;
+  margin-bottom: 15px; 
+}
+
+.subheader-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  text-align: left; 
+  margin: 10px 0 30px 40px; 
+  padding-left: 20px;
+}
+
+/* MAIN: 3 COLUMNAS */
+.reservacion-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.8fr;
+  gap: 30px;
+  padding: 30px 40px;
+}
+
+/* FORMULARIO */
+.reservacion-form {
+  margin-top: 50px;
+  padding: 20px;
+  background: #fff;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-bottom: 25px;
+  justify-content: flex-start;
+}
+
+.form-group label {
+  font-size: 17px;
+  font-weight: 600;
+  width: 180px;
+  text-align: left; 
+  min-width: 180px;
+}
+
+.form-group input,
+.form-group select {
+  width: 300px;
+  flex: 1; 
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #1b1b1b;
+}
+
+.btn-confirmar {
+  background: #2d7df6;
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  display: block; 
+  margin: 40px auto 0 auto;
+}
+
+.btn-confirmar:hover {
+  background: #1b4fbf;
+}
+
+/* CALENDARIO */
+.reservacion-calendario {
+  margin-top: 50px;
+  padding: 20px;
+  background: #fff8f5;
+  text-align: center;
+}
+
+/*   DATE PICKER     */
+.react-datepicker {
+  transform: scale(1.3) !important;
+  border: 2px solid #fff4ec !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.react-datepicker__header {
+  background: linear-gradient(135deg, #ff6600, #ff8c42) !important;
+  border-bottom: 2px solid #ff6600 !important;
+}
+
+.react-datepicker__current-month {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.react-datepicker__day-name {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.react-datepicker__day {
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+}
+
+.react-datepicker__day:hover {
+  background: #ffd8c2 !important;
+  transform: scale(1.1) !important;
+}
+
+.react-datepicker__day--selected {
+  background: #ff6600 !important;
+  color: white !important;
+}
+
+.react-datepicker__day--today {
+  background: #ffe0cc !important;
+  font-weight: bold !important;
+}
+
+/* BANNER */
+.banner-container {
+  background: linear-gradient(135deg, #2d7df6 0%, #1b4fbf 100%);
+  border-radius: 15px 0 0 0;
+  padding: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 20px 0 24px 0;
+}
+
+/* TARJETA CLICKEABLE BLANCA DENTRO */
+.reservacion-banner {
+  background: white;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.banner-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.banner-text {
+  padding: 15px;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+
+.reservacion-banner:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/*         Parte de consulta       */
+.resconsulta-main {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  gap: 30px;
+}
+
+/* PRIMER ESPACIO: Imagen */
+.imagen-resconsulta {
+  text-align: center;
+}
+
+.imagen-reconsul {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*  Información */
+.informacion-container {
+  padding: 20px;
+  background: #fff;
+}
+
+/* Botones de acción */
+.botones-accion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.btn-modificar {
+  background: #2d7df6;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-modificar:hover {
+  background: #1b4fbf;
+  transform: translateY(-2px);
+}
+
+.btn-eliminar {
+  background: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background: #e55d00;
+  transform: translateY(-2px);
+}
+
+/* TERCER ESPACIO: Calendario */
+.calendario-container {
+  background: #fff8f5;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #ff6600;
+  text-align: center;
+}
