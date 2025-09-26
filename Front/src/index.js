@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Registro from './Paginas/Registro';
+import Registro from './Paginas/RegistroN';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import InicioSesion from './Paginas/InicioSesion';
+import InicioSesion from './Paginas/InicioSesionN';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,154 @@
+.Admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 55px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-logo img {
+  max-width: 320px;
+  height: 53px;
+}
+
+.header-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header-search input {
+  border: none;
+  padding: 10px 40px;
+  outline: none;
+}
+
+.reporte-content {
+  font-family: Arial, sans-serif;
+  margin: 20px 45px;
+}
+
+.reporte-subheader {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.reporte-title {
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 23px;
+}
+
+.reporte-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.columna-izquierda {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.usuarios-section {
+  margin-bottom: 0;
+}
+
+.usuarios-list {
+  max-height: 200px; 
+  overflow-y: auto;  
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.usuario-item {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.estadisticas-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 25px 0px #1976d2;
+}
+
+.stat1-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 300px;
+  box-shadow: 0 20px 0px #1976d2;
+}
+
+.stat2-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 18px 0px #ff6600;
+  width: 400px;
+}
+
+.stat3-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 20px 0px #ff6600;
+  width: 600px;
+  
+}
+
+.stat-card h4 {
+  margin-bottom: 10px;
+}
+
+.azul {
+  border: 2px solid #1976d2;
+  background: #f5faff;
+ 
+}
+
+.naranja {
+  border: 2px solid #ff6600;
+  background: #fff8f0;
+}
+
+

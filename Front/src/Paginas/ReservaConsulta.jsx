@@ -30,7 +30,7 @@ export default function ReservaConsulta() {
       </header>
 
       {/* SUBHEADER */}
-        <div className="reservacion-subheader">
+        <div className="resconsulta-subheader">
             <img src="/imagenes/Subheader.jpg" alt="Imagen header reserva" className="subheader-image"/>
             <h2 className="subheader-title">Busca su reserva</h2>
             <select id="tipo-evento">
@@ -48,7 +48,7 @@ export default function ReservaConsulta() {
         </div>
 
         {/* Informacion */}
-        <div className="reservacion-form">
+        <div className="informacion-container">
             <div className="form-group">
                 <label htmlFor="tipo-evento">Tipo de evento:</label>
                 <select id="tipo-evento" disabled> {/* disabled para solo lectura */}
@@ -72,14 +72,16 @@ export default function ReservaConsulta() {
                 <option>9:00 AM</option>
                 </select>
             </div>
-        
-            <button className="btn-modificar">Modificar</button>
-            <button className="btn-eliminar">Eliminar</button>
+
+            <div className="botones-accion">
+                <button className="btn-modificar">Modificar</button>
+                <button className="btn-eliminar">Eliminar</button>
+            </div>
             
         </div>
 
         {/* Calendario */}
-        <div className="reservacion-calendario">
+        <div className="resconsulta-calendario">
            <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}

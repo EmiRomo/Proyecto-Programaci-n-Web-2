@@ -1,0 +1,220 @@
+
+/* HEADER SUPERIOR */
+.Admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 55px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-logo img {
+  max-width: 320px;
+  height: 53px;
+}
+
+.header-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header-search input {
+  border: none;
+  padding: 10px 40px;
+  outline: none;
+}
+
+.search-btn {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #ff6600;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #2d7df6;
+}
+
+/* Subheader */
+.feedback-subheader {
+  background-color: #007bff; /* azul */
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.feedback-subheader-orange {
+  background-color: #ff6600;
+  height: 14px; 
+  padding: 0;
+}
+/* Contenedor general */
+.feedback-container {
+  padding: 20px 40px;
+}
+
+/* Sección Quejas */
+.feedback-complaints-section {
+  margin-bottom: 40px;
+}
+
+.feedback-complaints-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.feedback-complaints-box {
+  padding: 25px;
+  height: 220px; /* scroll interno */
+  overflow-y: auto;
+}
+
+/*        TARJETA QUEJAS      */
+.complaint-card {
+  background-color: #f7f7f796;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  min-height: 130px;
+  align-items: center;
+}
+
+/* Contenedor para el texto */
+.complaint-content {
+  flex: 7;
+  padding-right: 15px;
+}
+
+.complaint-card p {
+  margin: 10px 0;
+  line-height: 1.3;
+}
+
+/* Contenedor para el botón */
+.complaint-actions {
+  flex: 3; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Botón dentro de su contenedor */
+.complaint-actions .btn-blue {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.complaint-actions .btn-blue:hover {
+  background-color: #0056b3;
+}
+
+/* Botón naranja */
+.btn-orange {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 7.5px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background-color: #e65c00;
+}
+
+/* Sección Valoraciones */
+.feedback-dishes-section h3 {
+  margin-bottom: 16px;
+}
+
+.feedback-dishes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.dish-card {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #ff6600;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: #fff;
+}
+
+.dish-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.dish-info h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dish-info p {
+  margin: 4px 0 0;
+  font-size: 17px;
+}
+
+/*    --  APARTADO QUEJAS     --    */
+
+.Qcomplaints-container {
+  padding: 20px 40px;
+}
+
+.complaints-list {
+  padding: 0 40px;
+  height: 800px;
+  overflow-y: auto;
+}
+
+.Qcomplaints-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+

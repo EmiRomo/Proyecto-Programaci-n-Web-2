@@ -69,6 +69,7 @@
   position: relative;
   width: 100%;
   text-align: center;
+  margin-bottom: 20px;
   border-bottom: 2px solid #afafaf
 }
 
@@ -99,7 +100,6 @@
 
 /* FORMULARIO */
 .reservacion-form {
-  margin-top: 50px;
   padding: 20px;
   background: #fff;
 }
@@ -148,7 +148,6 @@
 
 /* CALENDARIO */
 .reservacion-calendario {
-  margin-top: 50px;
   padding: 20px;
   background: #fff8f5;
   text-align: center;
@@ -254,6 +253,26 @@
   gap: 30px;
 }
 
+.resconsulta-subheader {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #afafaf
+}
+
+.resconsulta-subheader select {
+  width: 700px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  font-size: 15px;
+  background: white;
+  margin-left: 40px;
+  display: block; 
+  margin-bottom: 20px;
+}
+
+
 /* PRIMER ESPACIO: Imagen */
 .imagen-resconsulta {
   text-align: center;
@@ -269,13 +288,14 @@
 .informacion-container {
   padding: 20px;
   background: #fff;
+  margin-top: 60px;
 }
 
 /* Botones de acción */
 .botones-accion {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  justify-content: center; 
+  gap: 30px; 
   padding: 20px;
 }
 
@@ -314,10 +334,9 @@
 }
 
 /* TERCER ESPACIO: Calendario */
-.calendario-container {
+.resconsulta-calendario {
   background: #fff8f5;
   padding: 20px;
-  border-radius: 12px;
-  border: 2px solid #ff6600;
   text-align: center;
+  margin-top: 65px;
 }
